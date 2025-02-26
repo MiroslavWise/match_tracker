@@ -48,3 +48,11 @@ export default tseslint.config({
   },
 })
 ```
+
+  <!-- apiKey: "AIzaSyD2eAQGp4NEYmZo7iRxcDWY7HLsb8OZzxc", -->
+  <!-- authDomain: "miroslav-teams-match.firebaseapp.com", -->
+  <!-- projectId: "miroslav-teams-match", -->
+  <!-- storageBucket: "miroslav-teams-match.firebasestorage.app", -->
+  <!-- messagingSenderId: "249035761263", -->
+  appId: "1:249035761263:web:e9fa063c25218cefadcf9a",
+  measurementId: "G-Y4609EQ0XN"
