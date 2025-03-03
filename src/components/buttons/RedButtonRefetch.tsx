@@ -15,7 +15,10 @@ function RedButtonRefetch({ onClick, label, className, loading }: IProps) {
   return (
     <button
       type="button"
-      className={cx("bg-red-500 h-14 rounded-[0.25rem] flex flex-row items-center px-10 gap-2.5", className, loading && "bg-red-700")}
+      className={cx(
+        "bg-red-500 h-14 rounded-[0.25rem] flex flex-row items-center px-10 gap-2.5 hover:bg-red-700 disabled:bg-red-950",
+        className,
+      )}
       onClick={(event) => {
         event.stopPropagation()
         onClick()
